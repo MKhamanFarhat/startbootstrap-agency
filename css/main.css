@@ -130,7 +130,7 @@ img::-moz-selection {
 
 #mainNav .navbar-nav .nav-item .nav-link {
   font-size: 90%;
-  font-weight: 400;
+  font-weight: 700;
   padding: 0.75em 0;
   letter-spacing: 1px;
   color: white;
@@ -221,8 +221,14 @@ header.masthead .intro-text .intro-heading {
   }
 }
 /* Khaman's settings here */
-container-full {
-  marg
+#introduction {
+  text-align: center;
+  color: white;
+  background-image: url("../img/intro-bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
 }
 
 .pad20 {
@@ -230,8 +236,9 @@ container-full {
 }
 
 .carousel-content {
-  color:black;
+  color:white;
   display: flex;
+  font-size: 1.2em;
   align-items: center;
 }
 
