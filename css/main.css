@@ -220,10 +220,21 @@ header.masthead .intro-text .intro-heading {
     font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   }
 }
+/* Khaman's settings here */
+container-full {
+  marg
+}
 
 .pad20 {
   padding: 20px;
 }
+
+.carousel-content {
+  color:black;
+  display: flex;
+  align-items: center;
+}
+
 .service-heading {
   margin: 15px 0;
   text-transform: none;
