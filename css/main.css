@@ -70,6 +70,11 @@ section h3.section-subheading {
   padding: 20px 40px;
 }
 
+.btn-l {
+  margin:5px;
+  padding: 10px 20px;
+}
+
 .btn-primary {
   background-color: #fed136;
   border-color: #fed136;
@@ -125,7 +130,7 @@ img::-moz-selection {
 
 #mainNav .navbar-nav .nav-item .nav-link {
   font-size: 90%;
-  font-weight: 400;
+  font-weight: 700;
   padding: 0.75em 0;
   letter-spacing: 1px;
   color: white;
@@ -214,6 +219,27 @@ header.masthead .intro-text .intro-heading {
     margin-bottom: 50px;
     font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   }
+}
+/* Khaman's settings here */
+#introduction {
+  text-align: center;
+  color: white;
+  background-image: url("../img/intro-bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+
+.pad20 {
+  padding: 20px;
+}
+
+.carousel-content {
+  color:white;
+  display: flex;
+  font-size: 1.2em;
+  align-items: center;
 }
 
 .service-heading {
