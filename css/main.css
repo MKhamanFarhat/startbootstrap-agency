@@ -267,13 +267,6 @@ header.masthead .intro-text .intro-heading {
   margin-bottom: 20px;
 }
 
-.wine-price-comparison li{
-  font-size: 1.2em;
-  padding-bottom: 5px;
-}
-
-
-
 #robinthesommelier {
   position:relative;
   margin-top: 20px;
@@ -299,8 +292,10 @@ header.masthead .intro-text .intro-heading {
 }
 
 
-
-
+.wine-price-comparison li{
+  font-size: 1.2em;
+  padding-bottom: 5px;
+}
 
 .service-heading {
   margin: 15px 0;
