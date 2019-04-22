@@ -236,7 +236,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 .carousel-content {
-  background-color: rgba(217, 30, 24, 0.5);
+  background-color: rgba(225, 147, 132, 0.77);
   color:white;
   /* display: flex; */
   font-size: 1.5em;
@@ -271,36 +271,6 @@ header.masthead .intro-text .intro-heading {
   font-size: 1.2em;
   padding-bottom: 5px;
 }
-
-
-
-#robinthesommelier {
-  position:relative;
-  margin-top: 20px;
-}
-
-#robinthesommelier button {
-  margin: 20px;
-}
-.robin img { 
-	border:1px solid #000;
-	margin:3px;
-	float:left;
-}
-.robin span { 
-	position:absolute;
-	visibility:hidden;
-}
-.robin:hover, .robin:hover span { 
-	visibility:visible;
-  top:-200px;
-  left: 100px;
-	z-index:1;
-}
-
-
-
-
 
 .service-heading {
   margin: 15px 0;
