@@ -6,7 +6,7 @@ var margin = { top: 10, right: 30, bottom: 20, left: 40 },
 
 
 // read data
-d3.csv("csv/IVPDataset.csv", function (data) {
+d3.csv("csv/IVPDatasetPrice.csv", function (data) {
     // append the svg object to the body of the page
     var svg = d3
         .select("#pricePointGraph")
