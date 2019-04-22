@@ -1,0 +1,97 @@
+﻿name,number_of_wine,average_point,average_price,parent
+Origin,,,,
+Pinot Noir,14681,89.56,46.67,Origin
+Chardonnay,12534,88.44,33.39,Origin
+Cabernet Sauvignon,10097,88.66,49.11,Origin
+Red Blend,9622,88.41,34.00,Origin
+Bordeaux-style Red Blend,7864,89.29,35.96,Origin
+Riesling,5576,89.67,31.55,Origin
+Sauvignon Blanc,5397,87.48,19.82,Origin
+Syrah,4353,89.39,39.19,Origin
+Rosé,4053,86.90,17.34,Origin
+Nebbiolo,3272,90.21,56.96,Origin
+Merlot,3227,87.23,29.39,Origin
+Sangiovese,2951,88.79,43.00,Origin
+Zinfandel,2904,88.00,29.93,Origin
+Malbec,2853,88.03,30.34,Origin
+Portuguese Red,2667,88.86,22.75,Origin
+White Blend,2536,87.44,21.80,Origin
+Sparkling Blend,2514,88.25,29.01,Origin
+Tempranillo,2020,87.61,31.09,Origin
+Rhône-style Red Blend,1737,89.40,33.80,Origin
+Champagne Blend,1571,89.78,65.43,Origin
+Pinot Gris,1568,88.65,22.65,Origin
+Cabernet Franc,1462,88.20,34.00,Origin
+Grüner Veltliner,1426,90.13,24.41,Origin
+Portuguese White,1259,86.98,13.85,Origin
+Bordeaux-style White Blend,1197,88.88,23.52,Origin
+Gamay,1189,88.32,18.04,Origin
+Pinot Grigio,1106,86.32,15.80,Origin
+Gewürztraminer,1091,88.73,25.29,Origin
+Viognier,1080,87.80,26.19,Origin
+Shiraz,924,89.09,45.53,Origin
+Petite Sirah,821,88.32,31.97,Origin
+Barbera,782,87.84,22.73,Origin
+Grenache,759,89.21,36.29,Origin
+Port,719,90.18,54.77,Origin
+Sangiovese Grosso,696,90.56,51.15,Origin
+Glera,657,87.26,17.44,Origin
+Tempranillo Blend,626,88.31,35.44,Origin
+Chenin Blanc,626,88.64,21.58,Origin
+Carmenère,620,86.58,21.08,Origin
+"Corvina, Rondinella, Molinara",574,88.22,38.48,Origin
+Albariño,531,87.77,21.41,Origin
+Rhône-style White Blend,526,88.65,30.56,Origin
+Pinot Blanc,482,87.92,18.68,Origin
+Aglianico,405,89.39,33.49,Origin
+Nero d'Avola,373,87.53,20.73,Origin
+Garnacha,361,85.86,22.43,Origin
+Moscato,345,86.28,15.39,Origin
+Sauvignon,325,88.34,25.21,Origin
+Verdejo,316,86.10,16.02,Origin
+Petit Verdot,311,88.32,39.12,Origin
+Meritage,268,87.65,36.41,Origin
+Melon,263,88.40,14.78,Origin
+Primitivo,262,87.21,23.67,Origin
+Mourvèdre,259,89.27,35.01,Origin
+Garganega,256,87.63,16.64,Origin
+Blaufränkisch,252,90.28,29.12,Origin
+Torrontés,250,85.49,13.64,Origin
+Montepulciano,247,87.04,25.05,Origin
+Vermentino,243,87.77,20.87,Origin
+Prosecco,229,86.37,16.46,Origin
+Zweigelt,212,88.52,18.81,Origin
+G-S-M,209,89.07,34.35,Origin
+Verdicchio,203,87.88,20.71,Origin
+Touriga Nacional,202,88.85,24.55,Origin
+Pinot Nero,192,89.03,31.58,Origin
+Mencía,191,88.44,26.87,Origin
+Turbiana,190,88.76,19.89,Origin
+Fiano,184,88.34,23.48,Origin
+Roussanne,183,88.68,28.14,Origin
+Tannat,181,88.78,32.08,Origin
+Tinta de Toro,178,89.55,45.37,Origin
+Dolcetto,177,87.34,20.94,Origin
+Vernaccia,170,87.63,17.81,Origin
+Pinot Bianco,170,88.56,23.62,Origin
+Nerello Mascalese,157,90.24,41.90,Origin
+Sémillon,157,88.22,23.87,Origin
+Grenache Blanc,154,88.92,24.99,Origin
+Monastrell,154,86.99,19.62,Origin
+Grillo,151,86.94,14.38,Origin
+Muscat,150,88.80,28.89,Origin
+Pinotage,144,87.53,23.09,Origin
+Alvarinho,142,88.72,16.27,Origin
+Greco,135,88.63,24.53,Origin
+Cabernet Sauvignon-Merlot,126,87.63,27.49,Origin
+Friulano,124,88.20,22.58,Origin
+Rosato,122,86.93,15.24,Origin
+Falanghina,121,87.41,17.92,Origin
+Viura,118,85.04,14.80,Origin
+Sagrantino,117,89.87,48.23,Origin
+Malbec-Merlot,113,88.32,17.65,Origin
+Cabernet Sauvignon-Syrah,106,88.93,36.45,Origin
+Tinto Fino,106,89.78,62.47,Origin
+Bonarda,105,86.34,16.40,Origin
+Sherry,102,89.80,34.22,Origin
+Godello,100,86.94,21.48,Origin
