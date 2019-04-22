@@ -67,7 +67,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav text-uppercase ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services"
+              <a class="nav-link js-scroll-trigger" href="#introduction"
                 >Introduction</a
               >
             </li>
@@ -77,13 +77,19 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">Discovery 1</a>
+              <a class="nav-link js-scroll-trigger" href="#graph1"
+                >Discovery 1</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#team">Discovery 2</a>
+              <a class="nav-link js-scroll-trigger" href="#graph2"
+                >Discovery 2</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Discovery 3</a>
+              <a class="nav-link js-scroll-trigger" href="#graph3"
+                >Discovery 3</a
+              >
             </li>
           </ul>
         </div>
@@ -267,8 +273,168 @@
       </div>
     </section>
 
-    <!-- Example Graph -->
+    <section id="cheapVSexpensive">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h2 class="section-heading text-uppercase">Cheap</h2>
+            <h3 class="section-subheading text-muted">$4</h3>
+            <img
+              src="img/cheap.jpg"
+              alt="Cheap Wine"
+              class="wine-example img-fluid"
+            />
+            <ul class="wine-price-comparison">
+              <li>
+                6-9 months in French or American Oak
+              </li>
+              <li>Released after 1.5 years of aging</li>
+              <li>From large vineyard region</li>
+              <li>A developing wine nation</li>
+              <li>Affordable packaging</li>
+              <li>Small production is not possible</li>
+              <li>Machine harvested grapes</li>
+              <li>A mixed of wine grapes</li>
+              <li>Often contains residual sugar to add richness</li>
+            </ul>
+          </div>
+          <div class="col-sm-1 text-center">
+            <h2 class="section-heading text-muted text-uppercase">VS</h2>
+          </div>
+          <div class="col text-center">
+            <h2 class="section-heading text-uppercase">Expensive</h2>
+            <h3 class="section-subheading text-muted">$900</h3>
+            <img
+              src="img/expensive.jpg"
+              alt="Expensive wine "
+              class="wine-example img-fluid"
+            />
+            <ul class="wine-price-comparison">
+              <li>12 months in new Bertranges French Oak Barrels</li>
+              <li>Released after 6 years of aging</li>
+              <li>From a specific vineyard region</li>
+              <li>A well-developed wine nation</li>
+              <li>Expensive packaging</li>
+              <li>Usually in small production</li>
+              <li>Hand harvested grapes</li>
+              <li>Premium single-varietal grapes</li>
+              <li>Little to no residual sugar</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="bg-light" id="graph1">
+      <div class="container-fluid text-center">
+        <div class="col-lg text-center">
+          <h2 class="section-heading text-uppercase">
+            Country &harr; Price &harr; Points
+          </h2>
+          <h3 class="section-subheading text-muted">
+            ISI LA SENDIRI
+          </h3>
+        </div>
+        <div class="row">
+          <div class="col-lg">
+            <div id="heatmapPricePointCountry"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg text-center">
+              <h4>The correlation between price and points given</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. In
+                consectetur rem, laborum, provident ducimus cumque reprehenderit
+                dolorem, debitis tempore adipisci molestiae. Tempore cupiditate
+                dolor quos esse, commodi adipisci alias tenetur.
+              </p>
+            </div>
+            <div class="col-lg text-center">
+              <h4>The correlation between price and points given</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. In
+                consectetur rem, laborum, provident ducimus cumque reprehenderit
+                dolorem, debitis tempore adipisci molestiae. Tempore cupiditate
+                dolor quos esse, commodi adipisci alias tenetur.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-light" id="graph2">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">
+              Does Expensive Wine Taste Better?
+            </h2>
+            <h3 class="section-subheading text-muted">
+              It is!
+            </h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 text-center">
+            <h4>The correlation between price and points given</h4>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. In
+              consectetur rem, laborum, provident ducimus cumque reprehenderit
+              dolorem, debitis tempore adipisci molestiae. Tempore cupiditate
+              dolor quos esse, commodi adipisci alias tenetur.
+            </p>
+          </div>
+          <div class="col-lg-8 text-center">
+            <div id="pricePointGraph"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="graph3">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">
+              The Biggest Wine Producer?
+            </h2>
+            <h3 class="section-subheading text-muted">
+              It is!
+            </h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 text-center">
+            <h4>The correlation between price and points given</h4>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. In
+              consectetur rem, laborum, provident ducimus cumque reprehenderit
+              dolorem, debitis tempore adipisci molestiae. Tempore cupiditate
+              dolor quos esse, commodi adipisci alias tenetur.
+            </p>
+          </div>
+          <div class="col-lg-8 text-center">
+            <h2 class="section-heading text-uppercase">Graph</h2>
+            <h3 class="section-subheading text-muted">
+              Lorem ipsum dolor sit amet consectetur.
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. In
+              consectetur rem, laborum, provident ducimus cumque reprehenderit
+              dolorem, debitis tempore adipisci molestiae. Tempore cupiditate
+              dolor quos esse, commodi adipisci alias tenetur.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-light" id="graph4">
       <div class="container">
         <div class="row">
           <div class="col-lg-4 text-center">
@@ -298,6 +464,7 @@
         </div>
       </div>
     </section>
+
     <!-- Services -->
     <section id="services">
       <div class="container">
@@ -350,14 +517,14 @@
       </div>
     </section>
 
-    <!-- Portfolio Grid -->
-    <section class="bg-light" id="portfolio">
+    <!-- Portfolio Grid
+    <section class="bg-light" id="terminology">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Portfolio</h2>
+            <h2 class="section-heading text-uppercase">Terminology</h2>
             <h3 class="section-subheading text-muted">
-              Lorem ipsum dolor sit amet consectetur.
+              Wine Terminology Definition
             </h3>
           </div>
         </div>
@@ -496,7 +663,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- About -->
     <section id="about">
@@ -620,93 +787,156 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
+            <h2 class="section-heading text-uppercase">The Taster</h2>
             <h3 class="section-subheading text-muted">
               Lorem ipsum dolor sit amet consectetur.
             </h3>
           </div>
         </div>
         <div class="row">
-          <div class="col-sm-4">
+          <div class="col-md-3">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="" />
-              <h4>Kay Garland</h4>
-              <p class="text-muted">Lead Designer</p>
-              <ul class="list-inline social-buttons">
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-linkedin-in"></i>
-                  </a>
-                </li>
-              </ul>
+              <blockquote class="twitter-tweet" data-lang="en">
+                <a
+                  href="https://twitter.com/vossroger/status/1113832200653430786?ref_src=twsrc%5Etfw"
+                  >April 4, 2019</a
+                >
+              </blockquote>
             </div>
           </div>
-          <div class="col-sm-4">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="" />
-              <h4>Larry Parker</h4>
-              <p class="text-muted">Lead Marketer</p>
-              <ul class="list-inline social-buttons">
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-linkedin-in"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
+          <div class="col-md-3">
+            <blockquote class="twitter-tweet" data-lang="en">
+              <a
+                href="https://twitter.com/wineschach/status/1118513325019734016?ref_src=twsrc%5Etfw"
+                >April 17, 2019</a
+              >
+            </blockquote>
           </div>
-          <div class="col-sm-4">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="" />
-              <h4>Diana Pertersen</h4>
-              <p class="text-muted">Lead Developer</p>
-              <ul class="list-inline social-buttons">
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-linkedin-in"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
+          <div class="col-md-3">
+            <blockquote
+              class="twitter-tweet"
+              data-cards="hidden"
+              data-lang="en"
+            >
+              <a
+                href="https://twitter.com/KerinOKeefe/status/1118449817137475585?ref_src=twsrc%5Etfw"
+                >April 17, 2019</a
+              >
+            </blockquote>
+          </div>
+          <div class="col-md-3">
+            <blockquote class="twitter-tweet" data-lang="en">
+              <a
+                href="https://twitter.com/vboone/status/1105565849656516608?ref_src=twsrc%5Etfw"
+                >March 12, 2019</a
+              >
+            </blockquote>
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <p class="large text-muted">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut
-              eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam
-              corporis ea, alias ut unde.
-            </p>
+          <div class="col-md-3">
+            <blockquote
+              class="twitter-tweet"
+              data-cards="hidden"
+              data-lang="en"
+            >
+              <a
+                href="https://twitter.com/paulgwine/status/1098259590280634369?ref_src=twsrc%5Etfw"
+                >February 20, 2019</a
+              >
+            </blockquote>
+          </div>
+          <div class="col-md-3">
+            <blockquote class="twitter-tweet" data-lang="en">
+              <a
+                href="https://twitter.com/mattkettmann/status/1095879681440542720?ref_src=twsrc%5Etfw"
+                >February 14, 2019</a
+              >
+            </blockquote>
+          </div>
+          <div class="col-md-3">
+            <blockquote class="twitter-tweet" data-lang="en">
+              <a
+                href="https://twitter.com/wawinereport/status/1116152577064751104?ref_src=twsrc%5Etfw"
+                >April 11, 2019</a
+              >
+            </blockquote>
+          </div>
+          <div class="col-md-3">
+            <blockquote
+              class="twitter-tweet"
+              data-cards="hidden"
+              data-lang="en"
+            >
+              <a
+                href="https://twitter.com/gordone_cellars/status/993535358049468416?ref_src=twsrc%5Etfw"
+                >May 7, 2018</a
+              >
+            </blockquote>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <blockquote
+              class="twitter-tweet"
+              data-cards="hidden"
+              data-lang="en"
+            >
+              <a
+                href="https://twitter.com/JoeCz/status/1118129271250268161?ref_src=twsrc%5Etfw"
+                >April 16, 2019</a
+              >
+            </blockquote>
+          </div>
+          <div class="col-md-3">
+            <blockquote class="twitter-tweet" data-lang="en">
+              <a
+                href="https://twitter.com/AnneInVino/status/1118880002878132224?ref_src=twsrc%5Etfw"
+                >April 18, 2019</a
+              >
+            </blockquote>
+          </div>
+          <div class="col-md-3">
+            <blockquote class="twitter-tweet" data-lang="en">
+              <a
+                href="https://twitter.com/laurbuzz/status/1113510206972018689?ref_src=twsrc%5Etfw"
+                >April 3, 2019</a
+              >
+            </blockquote>
+          </div>
+          <div class="col-md-3">
+            <blockquote
+              class="twitter-tweet"
+              data-cards="hidden"
+              data-lang="en"
+            >
+              <a
+                href="https://twitter.com/suskostrzewa/status/1104908204264218625?ref_src=twsrc%5Etfw"
+                >March 11, 2019</a
+              >
+            </blockquote>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <blockquote class="twitter-tweet" data-lang="en">
+              <a
+                href="https://twitter.com/winewchristina/status/1116045402573344769?ref_src=twsrc%5Etfw"
+                >April 10, 2019</a
+              >
+            </blockquote>
+          </div>
+          <div class="col-md-3">
+            <blockquote
+              class="twitter-tweet"
+              data-cards="hidden"
+              data-lang="en"
+            >
+              <a
+                href="https://twitter.com/worldwineguys/status/1113132238529495040?ref_src=twsrc%5Etfw"
+                >April 2, 2019</a
+              >
+            </blockquote>
           </div>
         </div>
       </div>
@@ -1226,13 +1456,30 @@
 
     <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <!-- D3V4 -->
+    <script src="https://d3js.org/d3.v3.js"></script>
+    <script>
+      var d3v3 = window.d3;
+    </script>
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <script src="https://d3js.org/d3-hexbin.v0.2.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js"></script>
 
     <!-- Contact form JavaScript -->
     <!-- <script src="js/jqBootstrapValidation.js"></script> -->
     <!-- <script src="js/contact_me.js"></script> -->
+    <!-- Twitter -->
+    <script
+      async
+      src="https://platform.twitter.com/widgets.js"
+      charset="utf-8"
+    ></script>
 
     <!-- Custom scripts for this template -->
     <script src="js/main.js"></script>
     <script src="js/carouselHeight.js"></script>
+    <script src="js/heatmapPricePointCountry.js"></script>
+    <script src="js/pricePointGraph.js"></script>
   </body>
 </html>
