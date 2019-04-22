@@ -74,12 +74,12 @@ d3.csv("csv/IVPDatasetHeatmap.csv", function (data) {
 		.call(legendLinear);
 
 	// create a tooltip
-	var Tooltip = d3.select("body")
+	var Tooltip = d3.select("#heatmapPricePointCountry")
 		.append("div")
-		.style("opacity", 0)
+		.style("opacity", 1)
 		.style("position", "absolute")
 		.attr("class", "tooltip")
-		.style("z-index", "10")
+		.style("z-index", "1000")
 		.style("background-color", "white")
 		.style("border", "solid")
 		.style("border-width", "2px")
@@ -87,25 +87,23 @@ d3.csv("csv/IVPDatasetHeatmap.csv", function (data) {
 		.style("padding", "5px")
 
 	// Three function that change the tooltip when user hover / move / leave a cell
-	var mouseover = function (d) {
+	var mouseover = function () {
 		Tooltip
-			.style("opacity", 1)
+		.style("opacity", 1)
 		d3.select(this)
-			.style("stroke", "black")
-			.style("opacity", 1)
+		.style("stroke", "black")
 	}
 	var mousemove = function (d) {
 		Tooltip
-			.html("<strong>" + d.name + "</strong><br>Wine rating:" + d.point + "<br>Average price of wine: " + d.average_price)
-			.style("left", (d3.mouse(this)[0]) + "px")
-			.style("top", (d3.mouse(this)[1] - 30) + "px")
+		.html("<strong>" + d.name + "</strong><br>Wine rating:" + d.point + "<br>Average price of wine: " + d.average_price)
+		.style("left", ($(window).width() > 1450 ? (d3.mouse(this)[0] + ($(window).width()/16*3)) : d3.mouse(this)[0]) + "px")
+		.style("top", (d3.mouse(this)[1] - 30) + "px")
 	}
-	var mouseleave = function (d) {
+	var mouseleave = function () {
 		Tooltip
 			.style("opacity", 0)
 		d3.select(this)
 			.style("stroke", "none")
-			.style("opacity", 0.8)
 	}
 
 	// add the squares
@@ -131,7 +129,7 @@ d3.csv("csv/IVPDatasetHeatmap.csv", function (data) {
 		.style("opacity", 0.8)
 		.on("mouseover", mouseover)
 		.on("mousemove", mousemove)
-		.on("mouseleave", mouseleave)
+		.on("mouseleave", mouseleave);
 
 
 	// Add subtitle to graph
@@ -158,12 +156,4 @@ d3.csv("csv/IVPDatasetHeatmap.csv", function (data) {
 		.style("font-size", "14px")
 		.text("Country");
 })
-
-// Add title to graph
-//svg.append("text")
-//.attr("x", 0)
-//.attr("y", -50)
-//.attr("text-anchor", "left")
-//.style("font-size", "22px")
-//.text("A d3.js heatmap");
 
