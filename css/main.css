@@ -221,7 +221,7 @@ header.masthead .intro-text .intro-heading {
   }
 }
 /* Khaman's settings here */
-#introduction {
+#introduction2 {
   text-align: center;
   color: white;
   background-image: url("../img/intro-bg.jpg");
@@ -236,12 +236,31 @@ header.masthead .intro-text .intro-heading {
 }
 
 .carousel-content {
+  background-color: rgba(217, 30, 24, 0.5);
   color:white;
-  display: flex;
-  font-size: 1.2em;
-  align-items: center;
+  /* display: flex; */
+  font-size: 1.5em;
+  text-align: center;
+  padding: 70px;
 }
 
+.bottles {
+  margin: 10px;
+  width:30px;
+  height: 80px;
+}
+
+.grapes {
+  margin: 10px;
+  width:130px;
+  height: 80px;
+}
+#glass-cheers {
+  width:300px;
+  height: 200px;
+  margin: auto;
+  text-align: center;
+}
 .wine-example{
   width: 6em;
   height: 17em;
